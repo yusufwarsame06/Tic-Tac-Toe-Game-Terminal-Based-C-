@@ -22,6 +22,12 @@ Random number generation (rand, srand)
 Input handling and validation
 Boolean logic using <stdbool.h>
 
+Challenges & Lessons Learned:
+Handling real-time updates required careful use of system time functions and continuous looping without freezing or crashing the program.
+Detecting a specific date and time (midnight on January 1st) helped reinforce the importance of precise conditional logic.
+Formatting terminal output in a clean and readable way required multiple iterations.
+This project helped me gain confidence working with time-based logic, formatted output, and program flow control in C.
+
 Future Improvements:
 Add decision to choose AI difficulty.
 Replace random AI with a rule-based or Minimax decision algorithm.
